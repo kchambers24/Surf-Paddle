@@ -4,10 +4,10 @@ html {
   padding: 0;
 }
 body {
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
   }
   .MainContainer {
-    width: 1400px;
+    width: 1300px;
   }
   .Header {
     height: 200px;
@@ -25,8 +25,7 @@ body {
   .itemBar {
   float: right;
   position: relative;
-  right: 80px;
-  bottom: 10px;
+  right: 80px; bottom: 28px;
   }
   .TIY {
   width: 500px;
@@ -37,16 +36,13 @@ body {
   .tiyPic {
   position: relative;
   top: 5px;
-  right: 400px;
-  width: 25px;
+  right: 400px; width: 25px;
   }
   .copyTIY {
-  width: 250px;
+  width: 300px;
   margin: 0;
   position: relative;
-  left: 90px;
-
-
+  left: 80px;
   }
   ul {
     list-style-type: none;
@@ -58,43 +54,40 @@ body {
     margin: 0;
     font-size: 80px;
     color: white;
-
   }
   p {
     margin: 0;
   }
 .Blog {
-display: inline;
+display: inline-flex;
 position: absolute;
 right: 80%;
-bottom: 73%;
+bottom: 155px;
 margin: 0;
-
 }
 .logo {
   position: relative;
-
-
+  bottom: 4px; right: 4px;
+}
+.logo:hover {
+transform: rotateY(180deg);
+}
+.glass:hover {
+transform: rotateZ(180deg);
 }
 .SearchIcon {
 position: absolute;
-left: 80%;
-bottom: 75%;
+left: 80%; bottom: 75%;
 }
 .CompanyName {
   text-align: center;
   position: relative;
   top: 40px;
-
 }
 .article {
-  border: 1px solid black;
   width: 500px;
   position: relative;
-  left: 250px;
-  height: 700px;
-  bottom: 10px;
-
+  left: 200px; height: 700px; bottom: 10px;
 }
 .LeftHeader {
   margin: 0;
@@ -102,7 +95,6 @@ bottom: 75%;
   font-size: 26px;
 }
 .LeftDate {
-  border: 5px solid black;
   font-size: 12px;
   padding-bottom: 25px;
   position: relative;
@@ -122,23 +114,22 @@ bottom: 75%;
 .leftDate1 {
   float: left;
 }
+.Paragraph1 {
+  font-size: 14px;
+}
 .article_aside {
-  border: 5px solid green;
-  height: 800px;
+  height: 710px;
 }
 .aside {
-  border: 1px solid red;
   width: 300px;
   position: relative;
-  bottom: 660px;
-  left: 800px;
+  bottom: 670px; left: 740px;
 }
 .name {
   text-align: center;
   color: #106db3;
 }
 .asideProfile {
-
 }
 .profileRight {
   position: relative;
@@ -148,6 +139,7 @@ bottom: 75%;
   text-align: center;
   font-size: 12px;
   padding-bottom: 30px;
+
 }
 #thisAd {
   text-align: center;
@@ -165,7 +157,6 @@ h5 {
   font-size: 15px;
   position: relative;
   bottom: 20px;
-
 }
 .parRight {
   font-size: 12px;
@@ -176,7 +167,7 @@ h5 {
 .LeftMiddle {
   color: #106db3;
   font-size: 20px;
-  border-left; 1px solid grey;
+  border-left: 1px solid grey;
 }
 .commentIcon {
   background-color: black;
@@ -198,28 +189,43 @@ h5 {
   display: inline-flex;
   background-color: darkgrey;
   color: white;
-  font-size: 12px;
+  font-size: 11px;
   width: 110px; height: 20px;
   padding-right: 4px:
-
 }
+.read:hover {
+ transition: all 3s;
+ transition-timing: ease-in-out;
+ transform: rotate(360deg);
+}
+
 p.readComment {
   position: relative;
-  left: 8px; top: 2px;
+  left: 6px; top: 2px;
 }
 .later {
   display: inline-flex;
   background-color: darkgrey;
   color: white;
-  font-size: 12px;
+  font-size: 11px;
   width: 110px; height: 20px;
+}
+.later:hover {
+ transition: all 3s;
+ transition-timing: ease-in-out;
+ transform: rotate(360deg);
 }
 .share {
   display: inline-flex;
   background-color: #106db3;
   color: white;
-  font-size: 12px;
+  font-size: 11px;
   width: 110px; height: 20px;
+}
+.share:hover {
+ transition: all 3s;
+ transition-timing: ease-in-out;
+ transform: rotate(360deg);
 }
 .commentBox {
   background-color: black;
@@ -237,7 +243,50 @@ p.readComment {
   background-color: darkblue;
   width: 20px; height: 20px;
 }
-p.sharePost {
-  position: relative;
-  left: 20px; top: 4px
+.popular {
+  text-align: center;
+  color: #083452;
+  font-size: 30px;
+  border-top: 1px solid lightgrey;
+}
+.bottomPhotos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #106db3;
+}
+.surfer {
+  opacity: .5;
+}
+.surfer:hover {
+  transform: rotate(180deg);
+}
+.Zac {
+  opacity: .3;
+}
+.bottle {
+  opacity: .2;
+}
+.beer:hover {
+}
+a:hover, a:active {
+  background-color: yellow;
+  cursor: crosshair;
+  font-size: 150%;
+}
+.profileRight:hover {
+    transition: transform 1s;
+    transform: scale(2);
+}
+.Profile1:hover {
+    transition: transform 1s;
+    transform: scale(2);
+}
+.n5:hover {
+  transition: transform 1s;
+  transform: scale(2);
+}
+.LeftMiddle:hover{
+  transition: transform 1s;
+  transform: skewX(-20deg);
 }
