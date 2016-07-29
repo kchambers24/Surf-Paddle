@@ -1,0 +1,243 @@
+html {
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans";
+  }
+  .MainContainer {
+    width: 1400px;
+  }
+  .Header {
+    height: 200px;
+    background-image: url(http://i63.tinypic.com/v2y62r.jpg);
+    position:relative;
+  }
+  .footer {
+    background-color: #083452;
+    color: grey;
+    font-size: 12px;
+    height: 75px;
+    text-align: center;
+    margin: auto;
+  }
+  .itemBar {
+  float: right;
+  position: relative;
+  right: 80px;
+  bottom: 10px;
+  }
+  .TIY {
+  width: 500px;
+  margin: 0;
+  position: relative;
+  top 25px;
+  }
+  .tiyPic {
+  position: relative;
+  top: 5px;
+  right: 400px;
+  width: 25px;
+  }
+  .copyTIY {
+  width: 250px;
+  margin: 0;
+  position: relative;
+  left: 90px;
+
+
+  }
+  ul {
+    list-style-type: none;
+  }
+  ul li {
+    display: inline;
+  }
+  h1 {
+    margin: 0;
+    font-size: 80px;
+    color: white;
+
+  }
+  p {
+    margin: 0;
+  }
+.Blog {
+display: inline;
+position: absolute;
+right: 80%;
+bottom: 73%;
+margin: 0;
+
+}
+.logo {
+  position: relative;
+
+
+}
+.SearchIcon {
+position: absolute;
+left: 80%;
+bottom: 75%;
+}
+.CompanyName {
+  text-align: center;
+  position: relative;
+  top: 40px;
+
+}
+.article {
+  border: 1px solid black;
+  width: 500px;
+  position: relative;
+  left: 250px;
+  height: 700px;
+  bottom: 10px;
+
+}
+.LeftHeader {
+  margin: 0;
+  color: #083452;
+  font-size: 26px;
+}
+.LeftDate {
+  border: 5px solid black;
+  font-size: 12px;
+  padding-bottom: 25px;
+  position: relative;
+  bottom: 25px;
+}
+.leftprofile {
+  float: left;
+  position: relative;
+  bottom: 7px;
+  padding-right: 5px;
+}
+.leftName {
+  color: #106db3;
+  float: left;
+  padding-right: 10px;
+}
+.leftDate1 {
+  float: left;
+}
+.article_aside {
+  border: 5px solid green;
+  height: 800px;
+}
+.aside {
+  border: 1px solid red;
+  width: 300px;
+  position: relative;
+  bottom: 660px;
+  left: 800px;
+}
+.name {
+  text-align: center;
+  color: #106db3;
+}
+.asideProfile {
+
+}
+.profileRight {
+  position: relative;
+  left: 120px;
+}
+.socialMedia {
+  text-align: center;
+  font-size: 12px;
+  padding-bottom: 30px;
+}
+#thisAd {
+  text-align: center;
+  font-size: 12px;
+  float: right;
+  position: relative;
+  right: 12px;
+}
+.rightPicture {
+  text-align: center;
+  padding-bottom: 40px;
+}
+h5 {
+  color: #106db3;
+  font-size: 15px;
+  position: relative;
+  bottom: 20px;
+
+}
+.parRight {
+  font-size: 12px;
+  position: relative;
+  bottom: 40px;
+  color: lightgrey;
+}
+.LeftMiddle {
+  color: #106db3;
+  font-size: 20px;
+  border-left; 1px solid grey;
+}
+.commentIcon {
+  background-color: black;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 4px;
+  text-align: center;
+}
+.shareIcon {
+  background-color: darkblue;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 4px;
+  text-align: center;
+}
+.read {
+  display: inline-flex;
+  background-color: darkgrey;
+  color: white;
+  font-size: 12px;
+  width: 110px; height: 20px;
+  padding-right: 4px:
+
+}
+p.readComment {
+  position: relative;
+  left: 8px; top: 2px;
+}
+.later {
+  display: inline-flex;
+  background-color: darkgrey;
+  color: white;
+  font-size: 12px;
+  width: 110px; height: 20px;
+}
+.share {
+  display: inline-flex;
+  background-color: #106db3;
+  color: white;
+  font-size: 12px;
+  width: 110px; height: 20px;
+}
+.commentBox {
+  background-color: black;
+  width: 20px; height: 20px;
+}
+.readBox {
+  background-color: black;
+  width: 20px; height: 20px;
+}
+ p.readLater {
+   position: relative;
+   left: 15px; top: 2px
+}
+.shareBox {
+  background-color: darkblue;
+  width: 20px; height: 20px;
+}
+p.sharePost {
+  position: relative;
+  left: 20px; top: 4px
+}
