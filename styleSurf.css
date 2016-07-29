@@ -185,6 +185,10 @@ h5 {
   top: 4px;
   text-align: center;
 }
+.sharePost {
+  position: relative;
+  left: 4px; top: 2px;
+}
 .read {
   display: inline-flex;
   background-color: darkgrey;
